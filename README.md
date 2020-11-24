@@ -110,30 +110,31 @@ Fungsi else ialah jika tidak eror dan type yang dimasukan sesuai maka proses whi
 Fungsinya apabila diinputkan bukan berupa type maka hasilnya error (valueError)   <br>
 Berikut source codenya: <br>
 ```python
-    while (True):
-    nama = input(" Nama : ")
-    if nama == '':
-    P(' Masukan dengan Nama Dengan Benar')
-    else:
-    break
-    while (True):
-    try:
-    nim  = int(input(" NIM  : "))
-    if nim == '':
-    P(' Masukan Nim dengan Angka')
-    xcept ValueError:
-    P(' Masukan Nim dengan Angka')
-    else:
-    break
-    while (True):
-    try:
-    tugas  = int(input(" TUGAS  : "))
-    if tugas == '':
-    P(' Masukan TUGAS dengan Angka')
-    except ValueError:
-    P(' Masukan TUGAS dengan Angka')
-    else:
-    break
+                    while (True):
+                        nama = input(" Nama : ")
+                        if nama == '':
+                            P(' Masukan dengan Nama Dengan Benar')
+                        else:
+                            break
+                    while (True):
+                        try:
+                            nim  = int(input(" NIM  : "))
+                            if nim == '':
+                                P(' Masukan Nim dengan Angka')
+                        except ValueError:
+                            P(' Masukan Nim dengan Angka')
+                        else:
+                            break
+                    while (True):
+                        try:
+                            tugas  = int(input(" TUGAS  : "))
+                            if tugas == '':
+                                P(' Masukan TUGAS dengan Angka')
+                        except ValueError:
+                            P(' Masukan TUGAS dengan Angka')
+                        else:
+                            break
+    
 ```
 <br>
 

@@ -342,3 +342,6 @@ while True:
 ![OutputPratikum5](foto/OutputPratikum5.png)
 
 
+### SEKIAN TERIMAKASIH <br>
+
+

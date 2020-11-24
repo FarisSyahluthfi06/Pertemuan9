@@ -102,12 +102,12 @@ if c.lower() fungsinya apabila user menginputkan dengan huruf besar, maka otomat
 if c.lower() == 'q'
 
 * Penggunaan while True 
-while True berfungsi untuk mendeteksi jika format yang diinputkan bukan berupa type maka akan muncul eror.
+while True berfungsi untuk mendeteksi jika format yang diinputkan bukan berupa type maka akan muncul eror.  <br>
 *Penggunaan else
-Fungsi else ialah jika tidak eror dan type yang dimasukan sesuai maka proses while True.
+Fungsi else ialah jika tidak eror dan type yang dimasukan sesuai maka proses while True. <br>
 * Pengunaan valueError
-Fungsinya apabila diinputkan bukan berupa type maka hasilnya error (valueError)
-Berikut source codenya:
+Fungsinya apabila diinputkan bukan berupa type maka hasilnya error (valueError)   <br>
+Berikut source codenya: <br>
 ```python
     while (True):
     nama = input(" Nama : ")

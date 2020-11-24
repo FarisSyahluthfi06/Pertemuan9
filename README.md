@@ -142,6 +142,9 @@ akhir = round((float(tugas) * 0.3)+(float(uts) * 0.35)+(float(uas) * 0.35),2)
         i.write('\nNama : '+nama+'|Nim : '+str(nim)+'|Tugas : '+str(tugas)+'|UTS : '+str(uts)+'|UAS : '+str(uas)+"|Akhir : "+str(akhir)+'\n')
         i.close()
 ```
+* Penggunaan Database.txt
+Berguna untuk menyimpan data.
+[Database](foto/database.png)
 
 ### Berikut Source code lengkapnya...
 ```python

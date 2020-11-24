@@ -134,3 +134,11 @@ berikut source codenya:
                         else:
                             break
 ```
+* Pengunaan round dan float
+round digunakan untuk menentukan banyaknya angka di belakang koma, sedangkan float digunakan untuk mengubah bilangan menjadi float(desimal) <br>
+Berukut Source codenya:
+```python
+akhir = round((float(tugas) * 0.3)+(float(uts) * 0.35)+(float(uas) * 0.35),2)
+        i.write('\nNama : '+nama+'|Nim : '+str(nim)+'|Tugas : '+str(tugas)+'|UTS : '+str(uts)+'|UAS : '+str(uas)+"|Akhir : "+str(akhir)+'\n')
+        i.close()
+```

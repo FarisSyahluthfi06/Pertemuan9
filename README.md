@@ -8,6 +8,7 @@
 
 
 ## Program Data Mahasiswa
+### Pertemuan 9 - Pratikum Modul 4
 pada praktikum 4 ini, saya akan membuat program sederhana untuk menginput data kedalam list. Berikut soal dari dosen: <br>
 ![Pratikum4](foto/Pratikum4.jpeg)
 
@@ -84,5 +85,13 @@ for item in nilai:
 print("==================================================================")
 ```
 
-Output:
+#### Berikut Outputnya:
 ![OutputPratikum4](foto/OutputPratikum4.png)
+
+
+
+### Pertemuan 9 Modul 5
+
+Pada Pertemuan 9 Modul 5 dosen memberikan saya tugas untuk membuat program sederhana yang akan menampilkan daftar nilai mahasiswa. berikut soal yang dosen berikan:
+![Pratikum5](foto/Pratikum5.png)
+

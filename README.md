@@ -95,3 +95,7 @@ print("==================================================================")
 Pada Pertemuan 9 Modul 5 dosen memberikan saya tugas untuk membuat program sederhana yang akan menampilkan daftar nilai mahasiswa. berikut soal yang dosen berikan:
 ![Pratikum5](foto/Pratikum5.png)
 
+#### Penjelasan:
+* Penggunaan if c.lower() 
+if c.lower() fungsinya apabila user menginputkan dengan huruf besar, maka otomatis akan menjadi huruf kecil sehingga kondisi yang diinginkan tercapai. contoh: ``` if c.lower() == 'q'
+

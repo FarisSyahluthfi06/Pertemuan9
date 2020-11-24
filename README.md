@@ -105,8 +105,33 @@ if c.lower() == 'q'
 while True berfungsi untuk mendeteksi jika format yang diinputkan bukan berupa type maka akan muncul eror.
 *Penggunaan else
 Fungsi else ialah jika tidak eror dan type yang dimasukan sesuai maka proses while True.
+* Pengunaan valueError
+Fungsinya apabila diinputkan bukan berupa type maka hasilnya error (valueError)
 Berikut source codenya:
-
-![whileTrue](foto/whieTrue.png)
+```python
+    while (True):
+    nama = input(" Nama : ")
+    if nama == '':
+    P(' Masukan dengan Nama Dengan Benar')
+    else:
+    break
+    while (True):
+    try:
+    nim  = int(input(" NIM  : "))
+    if nim == '':
+    P(' Masukan Nim dengan Angka')
+    xcept ValueError:
+    P(' Masukan Nim dengan Angka')
+    else:
+    break
+    while (True):
+    try:
+    tugas  = int(input(" TUGAS  : "))
+    if tugas == '':
+    P(' Masukan TUGAS dengan Angka')
+    except ValueError:
+    P(' Masukan TUGAS dengan Angka')
+    else:
+    break
 
 

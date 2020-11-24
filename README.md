@@ -100,10 +100,12 @@ Pada Pertemuan 9 Modul 5 dosen memberikan saya tugas untuk membuat program seder
 if c.lower() fungsinya apabila user menginputkan dengan huruf besar, maka otomatis akan menjadi huruf kecil sehingga kondisi yang diinginkan tercapai. contoh:
 ```python
 if c.lower() == 'q'
-* Penggunaan whileTrue 
-whileTrue berfungsi untuk mendeteksi jika format yang diinputkan bukan berupa type maka akan muncul eror  <br>
+```
+<br>
+* Penggunaan while True 
+while True berfungsi untuk mendeteksi jika format yang diinputkan bukan berupa type maka akan muncul eror  <br>
 *Penggunaan else
-Fungsi else ialah jika tidak eror dan type yang dimasukan sesuai maka proses whileTrue <br>
+Fungsi else ialah jika tidak eror dan type yang dimasukan sesuai maka proses while True <br>
 * Pengunaan valueError
 Fungsinya apabila diinputkan bukan berupa type maka hasilnya error (valueError)   <br>
 Berikut source codenya: <br>
@@ -132,5 +134,6 @@ Berikut source codenya: <br>
     P(' Masukan TUGAS dengan Angka')
     else:
     break
-
+```
+<br>
 

@@ -98,7 +98,7 @@ Pada Pertemuan 9 Modul 5 dosen memberikan saya tugas untuk membuat program seder
 #### Penjelasan:
 * Penggunaan if c.lower() 
 if c.lower() fungsinya apabila user menginputkan dengan huruf besar, maka otomatis akan menjadi huruf kecil sehingga kondisi yang diinginkan tercapai. contoh:
-``` python
+```python
 if c.lower() == 'q'
 ```
 <br>
@@ -108,33 +108,5 @@ while True berfungsi untuk mendeteksi jika format yang diinputkan bukan berupa t
 Fungsi else ialah jika tidak eror dan type yang dimasukan sesuai maka proses while True <br>
 * Pengunaan valueError
 Fungsinya apabila diinputkan bukan berupa type maka hasilnya error (valueError)   <br>
-Berikut source codenya: <br>
-``` python
-                 while (True):
-                        nama = input(" Nama : ")
-                        if nama == '':
-                            P(' Masukan dengan Nama Dengan Benar')
-                        else:
-                            break
-                    while (True):
-                        try:
-                            nim  = int(input(" NIM  : "))
-                            if nim == '':
-                                P(' Masukan Nim dengan Angka')
-                        except ValueError:
-                            P(' Masukan Nim dengan Angka')
-                        else:
-                            break
-                    while (True):
-                        try:
-                            tugas  = int(input(" TUGAS  : "))
-                            if tugas == '':
-                                P(' Masukan TUGAS dengan Angka')
-                        except ValueError:
-                            P(' Masukan TUGAS dengan Angka')
-                        else:
-                            break
-    
-```
-<br>
-
+berikut source codenya:
+![1](foto/1.png)
